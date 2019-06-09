@@ -6,5 +6,4 @@
 		array_push($r, $res['id'], $res['Message']);
 	}
 	echo json_encode($r);
-
 ?>

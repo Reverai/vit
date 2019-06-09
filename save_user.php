@@ -1,6 +1,6 @@
 <?php
 	include("bd.php");
-	if(empty($_POST['username']) || empty($_POST['password1']) || empty($_POST['password2']))
+	if(empty($_POST['username']) || empty($_POST['password1']) || empty($_POST['password2']) || is_string($_POST['username']))
 	{
 		exit("Sorry");
 	}
